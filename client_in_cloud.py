@@ -66,7 +66,7 @@ class tcp_server(tcp_common):
 
 
 if __name__ == '__main__':
-    a = tcp_server('10.42.47.217', 12345)
+    a = tcp_server(ip, port)
     a.handle_connection()
     # main()
 
